@@ -1,0 +1,14 @@
+[project]
+name = "ravelry-openapi-specification"
+version = "0.1.0"
+description = "OpenAPI 3.1 specification for the Ravelry API, generated from the official HTML documentation"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[project.urls]
+Homepage = "https://cxd309.github.io/ravelry-openapi-specification/redoc.html"
+Repository = "https://github.com/cxd309/ravelry-openapi-specification"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+]
